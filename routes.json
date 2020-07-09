@@ -5,6 +5,10 @@
       "allowedRoles": ["reader"]
     },
     {
+      "route": "/target/*",
+      "allowedRoles": ["reader"]
+    },
+    {
       "route": "/login",
       "serve": "/.auth/login/aad"
     },
