@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "route": "/",
-      "allowedRoles": ["reader", "authenticated"]
+      "route": "/*",
+      "allowedRoles": ["reader"]
     },
     {
       "route": "/login",
