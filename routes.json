@@ -1,12 +1,16 @@
 {
   "routes": [
     {
-      "route": "/*",
+      "route": "/",
       "allowedRoles": ["authenticated"]
     },
     {
       "route": "/login",
       "serve": "/.auth/login/aad"
+    },
+    {
+      "route": "/.auth/login/twitter",
+      "statusCode": "404"
     },
     {
       "route": "/logout",
